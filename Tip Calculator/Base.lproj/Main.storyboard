@@ -19,17 +19,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5b-Hx-Aiu">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5b-Hx-Aiu" userLabel="Header Nav View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oEs-94-qSP" userLabel="Input View">
+                                <rect key="frame" x="15" y="129" width="345" height="203"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ycP-Ic-I1P" userLabel="Output View">
+                                <rect key="frame" x="15" y="356" width="345" height="203"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hc-kI-J88" userLabel="Reset Button">
+                                <rect key="frame" x="15" y="583" width="345" height="60"/>
+                                <color key="backgroundColor" name="tcDarkBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Pkr-bB-ZKE"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" name="tcOffWhite"/>
                         <constraints>
+                            <constraint firstItem="oEs-94-qSP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="2iL-Tt-u3a"/>
+                            <constraint firstItem="4hc-kI-J88" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="3ZE-aC-oRf"/>
+                            <constraint firstItem="4hc-kI-J88" firstAttribute="top" secondItem="ycP-Ic-I1P" secondAttribute="bottom" constant="24" id="4uG-Kw-P4k"/>
                             <constraint firstItem="H5b-Hx-Aiu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9Qr-2G-mjm"/>
+                            <constraint firstAttribute="trailing" secondItem="ycP-Ic-I1P" secondAttribute="trailing" constant="15" id="Grj-YF-7qk"/>
                             <constraint firstItem="H5b-Hx-Aiu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KCR-SO-lm4"/>
+                            <constraint firstItem="ycP-Ic-I1P" firstAttribute="top" secondItem="oEs-94-qSP" secondAttribute="bottom" constant="24" id="RbJ-f8-lml"/>
+                            <constraint firstAttribute="trailing" secondItem="4hc-kI-J88" secondAttribute="trailing" constant="15" id="X9u-8W-WZm"/>
+                            <constraint firstItem="ycP-Ic-I1P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="ZvA-vq-RvM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="H5b-Hx-Aiu" secondAttribute="bottom" constant="-85" id="dom-O7-ODy"/>
+                            <constraint firstItem="ycP-Ic-I1P" firstAttribute="height" secondItem="oEs-94-qSP" secondAttribute="height" id="iii-8H-vxV"/>
+                            <constraint firstItem="oEs-94-qSP" firstAttribute="top" secondItem="H5b-Hx-Aiu" secondAttribute="bottom" constant="24" id="lpH-6X-yxQ"/>
                             <constraint firstItem="H5b-Hx-Aiu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nhQ-VV-Y3Q"/>
+                            <constraint firstAttribute="trailing" secondItem="oEs-94-qSP" secondAttribute="trailing" constant="15" id="rg2-WR-o9F"/>
+                            <constraint firstAttribute="bottom" secondItem="4hc-kI-J88" secondAttribute="bottom" constant="24" id="vjc-ib-ewN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -40,6 +67,9 @@
         </scene>
     </scenes>
     <resources>
+        <namedColor name="tcDarkBlue">
+            <color red="0.16899999976158142" green="0.17599999904632568" blue="0.36100000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="tcOffWhite">
             <color red="0.96899998188018799" green="0.96899998188018799" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
