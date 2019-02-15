@@ -13,6 +13,7 @@
 		CFD09F912214A88300D0BC40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD09F902214A88300D0BC40 /* Assets.xcassets */; };
 		CFD09F942214A88400D0BC40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD09F922214A88400D0BC40 /* LaunchScreen.storyboard */; };
 		CFD09F9C2214ABF600D0BC40 /* Supporting Files in Resources */ = {isa = PBXBuildFile; fileRef = CFD09F9B2214ABF600D0BC40 /* Supporting Files */; };
+		CFDE68D122175A7D0058EDA8 /* BillAmountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE68D022175A7D0058EDA8 /* BillAmountTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CFD09F932214A88400D0BC40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD09F952214A88400D0BC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFD09F9B2214ABF600D0BC40 /* Supporting Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Supporting Files"; sourceTree = "<group>"; };
+		CFDE68D022175A7D0058EDA8 /* BillAmountTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillAmountTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CFD09F892214A88300D0BC40 /* AppDelegate.swift */,
 				CFD09F8B2214A88300D0BC40 /* ViewController.swift */,
 				CFD09F8D2214A88300D0BC40 /* Main.storyboard */,
+				CFDE68D022175A7D0058EDA8 /* BillAmountTextField.swift */,
 				CFD09F902214A88300D0BC40 /* Assets.xcassets */,
 				CFD09F9B2214ABF600D0BC40 /* Supporting Files */,
 				CFD09F922214A88400D0BC40 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD09F8C2214A88300D0BC40 /* ViewController.swift in Sources */,
+				CFDE68D122175A7D0058EDA8 /* BillAmountTextField.swift in Sources */,
 				CFD09F8A2214A88300D0BC40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
