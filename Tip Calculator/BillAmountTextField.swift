@@ -2,7 +2,7 @@
 //  BillAmountTextField.swift
 //  Tip Calculator
 //
-//  Created by Игорь Бопп on 13/02/2019.
+//  Created by Игорь Бопп on 15/02/2019.
 //  Copyright © 2019 Igor. All rights reserved.
 //
 

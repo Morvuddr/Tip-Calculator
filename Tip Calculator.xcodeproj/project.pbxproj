@@ -14,6 +14,8 @@
 		CFD09F942214A88400D0BC40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD09F922214A88400D0BC40 /* LaunchScreen.storyboard */; };
 		CFD09F9C2214ABF600D0BC40 /* Supporting Files in Resources */ = {isa = PBXBuildFile; fileRef = CFD09F9B2214ABF600D0BC40 /* Supporting Files */; };
 		CFDE68D122175A7D0058EDA8 /* BillAmountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE68D022175A7D0058EDA8 /* BillAmountTextField.swift */; };
+		CFDE68D3221766330058EDA8 /* UIColor+TC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE68D2221766330058EDA8 /* UIColor+TC.swift */; };
+		CFDE68D5221767F20058EDA8 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDE68D4221767F20058EDA8 /* ColorTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CFD09F952214A88400D0BC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFD09F9B2214ABF600D0BC40 /* Supporting Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Supporting Files"; sourceTree = "<group>"; };
 		CFDE68D022175A7D0058EDA8 /* BillAmountTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillAmountTextField.swift; sourceTree = "<group>"; };
+		CFDE68D2221766330058EDA8 /* UIColor+TC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+TC.swift"; sourceTree = "<group>"; };
+		CFDE68D4221767F20058EDA8 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 			children = (
 				CFD09F892214A88300D0BC40 /* AppDelegate.swift */,
 				CFD09F8B2214A88300D0BC40 /* ViewController.swift */,
+				CFDE68D4221767F20058EDA8 /* ColorTheme.swift */,
 				CFD09F8D2214A88300D0BC40 /* Main.storyboard */,
 				CFDE68D022175A7D0058EDA8 /* BillAmountTextField.swift */,
+				CFDE68D2221766330058EDA8 /* UIColor+TC.swift */,
 				CFD09F902214A88300D0BC40 /* Assets.xcassets */,
 				CFD09F9B2214ABF600D0BC40 /* Supporting Files */,
 				CFD09F922214A88400D0BC40 /* LaunchScreen.storyboard */,
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD09F8C2214A88300D0BC40 /* ViewController.swift in Sources */,
+				CFDE68D5221767F20058EDA8 /* ColorTheme.swift in Sources */,
 				CFDE68D122175A7D0058EDA8 /* BillAmountTextField.swift in Sources */,
+				CFDE68D3221766330058EDA8 /* UIColor+TC.swift in Sources */,
 				CFD09F8A2214A88300D0BC40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
